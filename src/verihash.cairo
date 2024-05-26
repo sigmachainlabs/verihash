@@ -19,7 +19,6 @@ mod VH {
 
     #[derive(Drop, Clone, Serde, starknet::Store, starknet::Event)]
     struct Call {
-        #[key]
         id: u256,
         address: ContractAddress,
         host: felt252,
