@@ -1,1 +1,1 @@
-mod VERIHASH;
+mod VERIHASHH;

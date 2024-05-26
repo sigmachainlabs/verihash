@@ -16,8 +16,8 @@ account = Account(
 )
 
 async def con_f_a(account):
-    contract = await Contract.from_address(provider=account, address=0x07c2402a987d463f0c5fcdd51c597c0547ef4079443f785cc18b0a0239924098)
-    invocation = await contract.functions["emit_call"].invoke_v3(host="0x68747470733a2f2f6170692e61676", payload="0x6e616d653d6d65656c6164", method="0x01", auto_estimate=True)
+    contract = await Contract.from_address(provider=account, address=0x079b587c6e75cb38b210fc12e37662c9f518d0025b7e67ac82c080501a105937)
+    invocation = await contract.functions["create_call"].invoke_v3(host="0x68747470733a2f2f6170692e61676", payload="0x6e616d653d6d65656c6164", method="0x01", auto_estimate=True)
     await invocation.wait_for_acceptance()
     print(invocation)
 
