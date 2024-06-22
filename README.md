@@ -1,5 +1,6 @@
 # VeriHash
 ### Enabling smart contracts to seamlessly integrate and verify real-time, off-chain data.
+[Presentation Link](https://www.canva.com/design/DAGFs-q0Z54/jEi0reXNsP0GcoouWQhDnQ/edit?utm_content=DAGFs-q0Z54&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ----
 ## Current Limitations
